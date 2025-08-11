@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro++</title>
+</head>
+<body>
+    <h1> ¡Bienvenidos a Pomodoro Plus,tu nueva app favorita!.</h1>
+    <div class="top-section">
+    <p class="subtitulo">Organiza tus tareas y controla tu tiempo</p>
+    <button id="infoBtn">¿Qué es Pomodoro?</button>
+  </div>
+  <div class="pantalla-dividida">
+    <section class="tareas">
+      <h2>Tareas</h2>
+      <form id="tareaForm">
+        <input type="text" id="tareaInput" placeholder="Agregar tarea..." required>
+        <button type="submit">Agregar</button>
+      </form>
+      <ul id="listaTareas"></ul>
+    </section>
+    <section class="pomodoro">
+   <div class="timer">
+    <div class="time-box" id="minutos">25</div>
+    <div class="time-box" id="segundos">00</div>
+  </div>
+  <div class="botones-pomodoro">
+    <button id="startBtn">Iniciar</button>
+    <button id="pauseBtn">Pausar</button>
+    <button id="resetBtn">Resetear</button>
+  </div>
+</section>
+</body>
+</html>
